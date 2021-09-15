@@ -31,7 +31,7 @@ header a {
 }
 
 header h1 {
-	padding-left: 0.5em;
+	padding-left: 0.3em;
 	float: left;
 	color: #fde4c5;
 	
@@ -90,8 +90,8 @@ header h1 {
 }
 
 #pcLogo {
-	height: 50px;
-	margin-left: 5%;
+	height: 43px;
+	margin-left: 10px;
 	margin-top: 1%;
 	display: inline-block;
 	float: left;
@@ -101,7 +101,7 @@ header h1 {
 	height: 45px;
 	cursor: pointer;
 	display: none;
-	margin-right: 2%;
+	margin-right: 15px;
 }
 
 #mobileNavContainer {
