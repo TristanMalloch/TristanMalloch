@@ -123,6 +123,7 @@ header h1 {
 #smallNav ul {
 	margin: 0;
 	text-align: right;
+	padding: 0.5em;
 }
 
 #mobileNav a {
