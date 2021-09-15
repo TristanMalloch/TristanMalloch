@@ -1,18 +1,23 @@
 body {
-	max-width: 1000px;
+	max-width: 1200px;
 	min-width: 375px;
 	margin: auto;
-	font-family: 'Space Mono', monospace;
+	font-family: 'NowSemibold';
+	/*font-family: 'Space Mono', monospace;*/
 	background-color: white;
 }
 
 main {
 	background-color: white;
-	font-family: 'Roboto', sans-serif;
-	font-size: 1em;
+	font-family: 'NowSemibold';
+	font-size: 1.15em;
 }
 
-h1, h2, p, li {
+h2 {
+	font-weight: bold;
+}
+
+h2, p, li {
 	color: #3e3734;
 }
 
@@ -40,9 +45,14 @@ header h1 {
 }
 
 #bigNav a {
-	font-family: 'Space Mono', monospace;
+	font-family: 'NowSemibold';
+	font-size: 1.3em;
 	color: white;
 	text-decoration: none;
+}
+
+#bigNav a:hover {
+	color: #c67d4e;
 }
 
 #mobileNav {
@@ -95,9 +105,13 @@ header h1 {
 }
 
 #mobileNav a {
-	font-family: 'Space Mono', monospace;
 	color: white;
+	font-size: 1.1em;
 	text-decoration: none;
+}
+
+#mobileNav a:hover {
+	color: #c67d4e;
 }
 
 #about {
@@ -121,9 +135,12 @@ header h1 {
 .aboutMeTextContainer {
 	display: block;
 	margin: 1em;
-	font-family: helvetica;
 	font-size: 1.2em;
 	margin-bottom: 0;
+}
+
+.aboutMeTextContainer h2 {
+	margin-top: 0;
 }
 
 #projects {
