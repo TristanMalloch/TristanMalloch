@@ -14,7 +14,10 @@ main {
 }
 
 h2 {
-	font-family: NowBlack;
+	font-family: NowBold;
+	font-weight: bolder;
+	font-size: 1.7em;
+	text-decoration: underline;
 }
 
 h2, p, li {
@@ -34,6 +37,7 @@ header h1 {
 	padding-left: 0.3em;
 	float: left;
 	color: #fde4c5;
+	font-family: NowBold;
 	
 }
 
