@@ -14,7 +14,7 @@ main {
 }
 
 h2 {
-	font-weight: bold;
+	font-family: NowBlack;
 }
 
 h2, p, li {
@@ -68,7 +68,7 @@ header h1 {
 	justify-content: space-between;
 	align-items: center;
 	background-color: #3e3734;
-	height: 65px;
+	height: 75px;
 }
 
 #pcLogo {
