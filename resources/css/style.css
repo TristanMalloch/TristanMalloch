@@ -174,6 +174,15 @@ header h1 {
 	margin-top: 0;
 }
 
+#projects h2, #projects p {
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+#projects p {
+	margin-left: 10px;
+}
+
 #projects li {
 	list-style-type: disc;
 	font-weight: bold;
@@ -181,7 +190,7 @@ header h1 {
 	margin: 0.7em;
 }
 
-#dogFightDetails, #dogFightMK2Details {
+#dogFightDetails, #dogFightMK2Details, #portfolioDetails {
 	display: none;
 	font-size: 1.1em;
 }

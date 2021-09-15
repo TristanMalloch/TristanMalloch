@@ -1,5 +1,7 @@
 let dogFightName = document.getElementById('dogFightName');
 let dogFightMK2Name = document.getElementById('dogFightMK2Name');
+let portfolioName = document.getElementById('portfolioName');
+let portfolioDetails = document.getElementById('portfolioDetails');
 let dogFightDetails = document.getElementById('dogFightDetails');
 let dogFightMK2Details = document.getElementById('dogFightMK2Details');
 let mobileNav = document.getElementById('smallNav');
@@ -35,6 +37,16 @@ let showDogFightMK2 = function() {
 };
 
 dogFightMK2Name.onclick = showDogFightMK2;
+
+let showPortfolio = function() {
+	if (portfolioDetails.style.display == "block") {
+		portfolioDetails.style.display = "none";
+	} else {
+		portfolioDetails.style.display = "block";
+	}
+};
+
+portfolioName.onclick = showPortfolio;
 
 let skillsSize = function() {
 	if (skillsImage.style.height == '250px') {
