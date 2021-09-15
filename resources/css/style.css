@@ -63,6 +63,8 @@ header h1 {
 	justify-content: flex-end;
 	border-radius: 15px;
 	margin: 0 10px;
+	width: fit-content;
+	float: right;
 }
 
 #topDiv {
