@@ -1,0 +1,194 @@
+body {
+	max-width: 1000px;
+	min-width: 375px;
+	margin: auto;
+	font-family: 'Space Mono', monospace;
+	background-color: white;
+}
+
+main {
+	background-color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+}
+
+h1, h2, p, li {
+	color: #3e3734;
+}
+
+header a {
+	text-decoration: none;
+}
+
+#bigNav h1, #bigNav ul {
+	margin: 0.5em;
+}
+
+header h1 {
+	padding-left: 0.5em;
+}
+
+#bigNav ul {
+	display: flex;
+	list-style: none;
+	padding: 0;
+}
+
+#bigNav li {
+	padding: 1em;
+	font-weight: bold;
+}
+
+#bigNav a {
+	font-family: 'Space Mono', monospace;
+	color: white;
+	text-decoration: none;
+}
+
+#mobileNav {
+	background-color: #3e3734;
+	display: flex;
+	justify-content: flex-end;
+}
+
+#topDiv {
+	display: flex;
+	color: white;
+	font-size: 1.2em;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #3e3734;
+	height: 65px;
+}
+
+#pcLogo {
+	height: 50px;
+	margin-left: 4%;
+	margin-top: 1%;
+}
+
+#MenuIcon {
+	height: 50px;
+	cursor: pointer;
+	display: none;
+}
+
+#mobileNavContainer {
+	height: 100%;
+	float: right;
+}
+
+#mobileNav li {
+	list-style-type: none;
+	margin-right: 1em;
+	padding: 0.5em;
+	
+}
+
+#smallNav {
+	display: none;
+}
+
+#smallNav ul {
+	margin: 0;
+	text-align: right;
+}
+
+#mobileNav a {
+	font-family: 'Space Mono', monospace;
+	color: white;
+	text-decoration: none;
+}
+
+#about {
+	display: block;
+}
+
+#about img {
+	width: 375px;
+	height: auto;
+	margin: 1em;
+	border-radius: 15px;
+}
+
+.aboutMeContainer {
+	display: flex;
+	width: 100%;
+	align-items: flex-start;
+	/*flex-direction: column;*/
+}
+
+.aboutMeTextContainer {
+	display: block;
+	margin: 1em;
+	font-family: helvetica;
+	font-size: 1.2em;
+	margin-bottom: 0;
+}
+
+#projects {
+	margin: 1.3em;
+	margin-top: 0;
+}
+
+#projects li {
+	list-style-type: disc;
+	font-weight: bold;
+	font-size: 1.1em;
+	margin: 0.7em;
+}
+
+#dogFightDetails {
+	display: none;
+	font-family: helvetica;
+	font-size: 1.1em;
+}
+
+#dogFightDetails img {
+	height: 450px;
+	border: solid 1px #3e3734;
+}
+
+#dogFightName {
+	cursor: pointer;
+}
+
+#skills h2 {
+	margin: 1em;
+}
+
+#skillsImage {
+	height: 100px;
+	margin-left: 5%;
+	cursor: pointer;
+}
+
+footer {
+	text-align: center;
+	background-color: #3e3734;
+	color: white;
+	font-size: 1.1em;
+}
+
+#contact {
+	margin: 1em;
+}
+
+@media only screen and (min-width: 898px) {
+	#mobileNav {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 897px) {
+	.aboutMeContainer {
+		flex-direction: column;
+		align-items: flex-start;
+	} #bigNav ul {
+		display: none;
+	} #mobileNav {
+		display: block;
+	} #topDiv img {
+		display: block;
+	}
+}

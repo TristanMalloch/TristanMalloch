@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="./resources/css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+	<title>PulseCode</title>
+</head>
+<body>
+	<header>
+		<div id="topDiv">
+			<a href="index.html"><img src="./resources/images/PCLogoMono.png" id="pcLogo"></a>
+			<nav id="bigNav">
+				<ul>
+					<li><a href="index.html#about">About Me</a></li>
+					<li><a href="index.html#projects">Projects</a></li>
+					<li><a href="index.html#skills">Skills</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+			<img src="./resources/images/MenuWh.png" id="MenuIcon">
+		</div>
+		<div id="mobileNav">
+			<nav id="smallNav">
+				<ul>
+					<li><a href="index.html#about">About Me</a></li>
+					<li><a href="index.html#projects">Projects</a></li>
+					<li><a href="index.html#skills">Skills</a></li>
+					<li><a href="index.html#contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<section id="contact">
+			<div class="contactContainer">
+				<div class="contactTextContainer">
+					<h2>Contact Details</h2>
+					<p>Email: <a href="mailto: tristan@pulsecode.me">tristan@pulsecode.me</a></p>
+					<p>Social: <a href="">LinkedIn</a></p>
+					</div>
+			</div>
+			<form action="submit.html">
+				<h2>Business Enquires</h2>
+				<!-- <label for="formName">Name:</label>
+				<br> -->
+				<input type="text" id="formName" name="name" placeholder="Name" size="25" required="">
+				<br><!-- 
+				<label for="formEmail">Email Address:</label> -->
+				<br>
+				<input type="email" id="formEmail" name="email" placeholder="Email" size="25" required="">
+				<br><!-- <br>
+				<label>Message:</label>-->
+				<br> 
+				<textarea id="formMessage" name="message" rows="5" cols="50" required="">Message --  Note: Contact form is currently under construction. Please contact via email address above</textarea>
+				<br>
+				<input type="submit" value="Submit" id="submitButton">
+				<br>
+			</form>
+		</section>
+	</main>
+	<footer>Made in Melbourne</footer>
+	<script type="text/javascript" src="./resources/script/script.js"></script>
+</body>
+</html>
