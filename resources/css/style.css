@@ -4,13 +4,14 @@ body {
 	margin: auto;
 	font-family: 'NowSemibold';
 	/*font-family: 'Space Mono', monospace;*/
-	background-color: white;
+	background-color: #fde4c5;
 }
 
 main {
 	background-color: white;
 	font-family: 'NowSemibold';
 	font-size: 1.15em;
+	background-color: #fde4c5;
 }
 
 h2 {
@@ -31,6 +32,7 @@ header a {
 
 header h1 {
 	padding-left: 0.5em;
+	
 }
 
 #bigNav ul {
@@ -59,6 +61,8 @@ header h1 {
 	background-color: #3e3734;
 	display: flex;
 	justify-content: flex-end;
+	border-radius: 15px;
+	margin: 0 10px;
 }
 
 #topDiv {
@@ -69,18 +73,22 @@ header h1 {
 	align-items: center;
 	background-color: #3e3734;
 	height: 75px;
+	border-radius: 20px;
+	margin: 10px 10px 5px 10px;
 }
 
 #pcLogo {
 	height: 50px;
 	margin-left: 4%;
 	margin-top: 1%;
+	display: inline-block;
 }
 
 #MenuIcon {
 	height: 50px;
 	cursor: pointer;
 	display: none;
+	margin-right: 5px;
 }
 
 #mobileNavContainer {
@@ -106,7 +114,7 @@ header h1 {
 
 #mobileNav a {
 	color: white;
-	font-size: 1.1em;
+	font-size: 1.2em;
 	text-decoration: none;
 }
 
@@ -122,7 +130,7 @@ header h1 {
 	width: 375px;
 	height: auto;
 	margin: 1em;
-	border-radius: 15px;
+	border-radius: 20px;
 }
 
 .aboutMeContainer {
@@ -155,19 +163,20 @@ header h1 {
 	margin: 0.7em;
 }
 
-#dogFightDetails {
+#dogFightDetails, #dogFightMK2Details {
 	display: none;
-	font-family: helvetica;
 	font-size: 1.1em;
 }
 
-#dogFightDetails img {
-	height: 450px;
+#dogFightImage, #dogFightMK2Image  {
+	height: 350px;
 	border: solid 1px #3e3734;
 }
 
-#dogFightName {
+#projects li {
 	cursor: pointer;
+	font-family: NowBold;
+	font-size: 1.3em;
 }
 
 #skills h2 {
@@ -184,7 +193,10 @@ footer {
 	text-align: center;
 	background-color: #3e3734;
 	color: white;
-	font-size: 1.1em;
+	font-size: 1.3em;
+	height: 30px;
+	border-radius: 20px;
+	margin: 10px;
 }
 
 #contact {
