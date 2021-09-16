@@ -67,9 +67,9 @@ header h1 {
 	border-radius: 15px;
 	margin: 0 10px;
 	width: fit-content;
-	position: fixed;
+	position: absolute;
 	right: 5px;
-	/*box-shadow: 5px 5px 5px #e1a8a8;*/
+	box-shadow: 5px 5px 5px #e1a8a8;
 	opacity: 0.95;
 }
 
@@ -90,7 +90,7 @@ header h1 {
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
-	margin-left: 30px
+	margin-left: 25px
 }
 
 #pcLogo {
@@ -100,10 +100,10 @@ header h1 {
 }
 
 #MenuIcon {
-	height: 45px;
+	height: 40px;
 	cursor: pointer;
 	display: none;
-	margin-right: 15px;
+	margin-right: 23px;
 }
 
 #mobileNavContainer {
