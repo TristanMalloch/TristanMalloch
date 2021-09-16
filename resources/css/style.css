@@ -145,7 +145,7 @@ header h1 {
 #about img {
 	width: 375px;
 	height: auto;
-	margin: 1em;
+	margin: auto;
 	border-radius: 20px;
 	box-shadow: 5px 5px 5px #e1a8a8;
 }
