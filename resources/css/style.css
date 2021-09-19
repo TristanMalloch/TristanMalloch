@@ -184,6 +184,15 @@ header h1 {
 	margin: 0.5em;
 }
 
+#projects li:hover {
+	color: #c67d4e;
+}
+
+#projects img:hover {
+	opacity: 0.5;
+	/*border: outset 2px #c67d4e;*/
+}
+
 #dogFightDetails, #dogFightMK2Details, #portfolioDetails {
 	display: none;
 	margin: 0;
