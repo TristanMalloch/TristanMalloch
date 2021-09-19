@@ -31,35 +31,25 @@ main.onclick = function() {
 };
 
 
-let showDogFight = function() {
-	if (dogFightDetails.style.display == "block") {
-		dogFightDetails.style.display = "none";
+const showProjectDetails = (domElement) => {
+	if (domElement.style.display == "block") {
+		domElement.style.display = "none";
 	} else {
-		dogFightDetails.style.display = "block";
+		domElement.style.display = "block";
 	}
 };
 
-dogFightName.onclick = showDogFight;
+dogFightName.addEventListener('click', () => { 
+	showProjectDetails(dogFightDetails);
+});
 
-let showDogFightMK2 = function() {
-	if (dogFightMK2Details.style.display == "block") {
-		dogFightMK2Details.style.display = "none";
-	} else {
-		dogFightMK2Details.style.display = "block";
-	}
-};
+dogFightMK2Name.addEventListener('click', () => { 
+	showProjectDetails(dogFightMK2Details);
+});
 
-dogFightMK2Name.onclick = showDogFightMK2;
-
-let showPortfolio = function() {
-	if (portfolioDetails.style.display == "block") {
-		portfolioDetails.style.display = "none";
-	} else {
-		portfolioDetails.style.display = "block";
-	}
-};
-
-portfolioName.onclick = showPortfolio;
+portfolioName.addEventListener('click', () => { 
+	showProjectDetails(portfolioDetails);
+});
 
 let skillsSize = function() {
 	if (skillsImage.style.height == '250px') {
