@@ -112,9 +112,13 @@ header h1 {
 	fill: #fde4c5;
 }
 
-#menuIconContainer:hover .menuIcon{
+@media (hover: hover) {
+	#menuIconContainer:hover .menuIcon{
 		fill: #c67d4e;
 	}
+}
+
+
 	
 #mobileNav li {
 	list-style-type: none;
