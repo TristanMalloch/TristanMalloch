@@ -8,6 +8,7 @@ let mobileNav = document.getElementById('smallNav');
 let menuIcon = document.getElementById('menuIconContainer');
 let skillsImage = document.getElementById('skillsImage');
 let menuItems = document.getElementsByClassName('menuItem');
+let main = document.getElementById('main');
 
 let showMobileNav = function() {
 	if (mobileNav.style.display == "block") {
@@ -15,13 +16,20 @@ let showMobileNav = function() {
 	} else {
 		mobileNav.style.display = "block";
 	}
-};
+}
 
 menuIcon.onclick = showMobileNav;
 menuItems[0].onclick = showMobileNav;
 menuItems[1].onclick = showMobileNav;
 menuItems[2].onclick = showMobileNav;
 menuItems[3].onclick = showMobileNav;
+
+main.onclick = function() {
+	if (mobileNav.style.display == "block") {
+		mobileNav.style.display = "none";
+}
+};
+
 
 let showDogFight = function() {
 	if (dogFightDetails.style.display == "block") {
