@@ -7,6 +7,7 @@ let dogFightMK2Details = document.getElementById('dogFightMK2Details');
 let mobileNav = document.getElementById('smallNav');
 let menuIcon = document.getElementById('menuIconContainer');
 let skillsImage = document.getElementById('skillsImage');
+let menuItems = document.getElementsByClassName('menuItem');
 
 let showMobileNav = function() {
 	if (mobileNav.style.display == "block") {
@@ -17,6 +18,10 @@ let showMobileNav = function() {
 };
 
 menuIcon.onclick = showMobileNav;
+menuItems[0].onclick = showMobileNav;
+menuItems[1].onclick = showMobileNav;
+menuItems[2].onclick = showMobileNav;
+menuItems[3].onclick = showMobileNav;
 
 let showDogFight = function() {
 	if (dogFightDetails.style.display == "block") {
