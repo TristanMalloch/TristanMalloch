@@ -101,13 +101,21 @@ header h1 {
 	float: left;
 }
 
-#MenuIcon {
-	height: 40px;
+#menuIconContainer {
 	cursor: pointer;
 	display: none;
 	margin-right: 23px;
+	float: right;
 }
 
+.menuIcon {
+	fill: #fde4c5;
+}
+
+#menuIconContainer:hover .menuIcon{
+		fill: #c67d4e;
+	}
+	
 #mobileNav li {
 	list-style-type: none;
 	padding: 0.4em;
@@ -242,7 +250,7 @@ footer {
 		display: none;
 	} #mobileNav {
 		display: block;
-	} #topDiv img {
+	} #menuIconContainer {
 		display: block;
 	}
 }

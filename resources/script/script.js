@@ -5,7 +5,7 @@ let portfolioDetails = document.getElementById('portfolioDetails');
 let dogFightDetails = document.getElementById('dogFightDetails');
 let dogFightMK2Details = document.getElementById('dogFightMK2Details');
 let mobileNav = document.getElementById('smallNav');
-let MenuIcon = document.getElementById('MenuIcon');
+let menuIcon = document.getElementById('menuIconContainer');
 let skillsImage = document.getElementById('skillsImage');
 
 let showMobileNav = function() {
@@ -16,7 +16,7 @@ let showMobileNav = function() {
 	}
 };
 
-MenuIcon.onclick = showMobileNav;
+menuIcon.onclick = showMobileNav;
 
 let showDogFight = function() {
 	if (dogFightDetails.style.display == "block") {
