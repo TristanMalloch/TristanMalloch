@@ -149,7 +149,7 @@ header h1 {
 	width: 350px;
 	height: auto;
 	border-radius: 20px;
-	box-shadow: 5px 5px 5px #e1a8a8;
+	/*box-shadow: 5px 5px 5px #e1a8a8;*/
 }
 
 .aboutMeContainer {
@@ -198,7 +198,7 @@ header h1 {
 @media (hover: hover) {
 #projects li:hover {
 	color: #c67d4e;
-}
+	}
 }
 
 
@@ -223,10 +223,20 @@ header h1 {
 	margin: 1em;
 }
 
-#skillsImage {
-	height: 100px;
-	margin-left: 5%;
+#codeIconContainer {
+	width: 95%;
+	margin: auto;
+}
+
+.codeIcon {
+	height: 50px;
 	cursor: pointer;
+	transition: transform .2s;
+	padding: 0.5em;
+}
+
+.codeIcon:hover {
+	transform: scale(1.8);
 }
 
 footer {
