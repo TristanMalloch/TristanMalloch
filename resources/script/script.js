@@ -50,13 +50,3 @@ dogFightMK2Name.addEventListener('click', () => {
 portfolioName.addEventListener('click', () => { 
 	showProjectDetails(portfolioDetails);
 });
-
-let skillsSize = function() {
-	if (skillsImage.style.height == '250px') {
-		skillsImage.style.height = '100px';
-	} else {
-		skillsImage.style.height = '250px';
-	}
-};
-
-skillsImage.onclick = skillsSize;

@@ -230,7 +230,6 @@ header h1 {
 
 .codeIcon {
 	height: 50px;
-	cursor: pointer;
 	transition: transform .2s;
 	padding: 0.5em;
 }
