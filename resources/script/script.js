@@ -1,14 +1,14 @@
-let dogFightName = document.getElementById('dogFightName');
-let dogFightMK2Name = document.getElementById('dogFightMK2Name');
-let portfolioName = document.getElementById('portfolioName');
-let portfolioDetails = document.getElementById('portfolioDetails');
-let dogFightDetails = document.getElementById('dogFightDetails');
-let dogFightMK2Details = document.getElementById('dogFightMK2Details');
-let mobileNav = document.getElementById('smallNav');
-let menuIcon = document.getElementById('menuIconContainer');
-let skillsImage = document.getElementById('skillsImage');
-let menuItems = document.getElementsByClassName('menuItem');
-let main = document.getElementById('main');
+const dogFightName = document.getElementById('dogFightName');
+const dogFightMK2Name = document.getElementById('dogFightMK2Name');
+const portfolioName = document.getElementById('portfolioName');
+const portfolioDetails = document.getElementById('portfolioDetails');
+const dogFightDetails = document.getElementById('dogFightDetails');
+const dogFightMK2Details = document.getElementById('dogFightMK2Details');
+const mobileNav = document.getElementById('smallNav');
+const menuIcon = document.getElementById('menuIconContainer');
+const skillsImage = document.getElementById('skillsImage');
+const menuItems = document.getElementsByClassName('menuItem');
+const main = document.getElementById('main');
 
 let showMobileNav = function() {
 	if (mobileNav.style.display == "block") {
@@ -18,11 +18,12 @@ let showMobileNav = function() {
 	}
 }
 
+
 menuIcon.onclick = showMobileNav;
-menuItems[0].onclick = showMobileNav;
-menuItems[1].onclick = showMobileNav;
-menuItems[2].onclick = showMobileNav;
-menuItems[3].onclick = showMobileNav;
+
+for (let i = 0; i < menuItems.length; i++) {
+	menuItems[i].onclick = showMobileNav;
+}
 
 main.onclick = function() {
 	if (mobileNav.style.display == "block") {
