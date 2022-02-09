@@ -64,6 +64,7 @@ header h1 {
 
 #mobileNav {
 	background-color: #3e3734;
+	font-family:'NowSemibold';
 	display: flex;
 	justify-content: flex-end;
 	border-radius: 10px;
@@ -71,7 +72,7 @@ header h1 {
 	width: fit-content;
 	position: absolute;
 	right: 5px;
-	box-shadow: 5px 5px 5px #e1a8a8;
+	box-shadow: 2px 2px 2px #e1a8a8;
 	opacity: 0.95;
 }
 
