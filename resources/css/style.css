@@ -2,14 +2,14 @@ body {
 	max-width: 1100px;
 	min-width: 375px;
 	margin: auto;
-	background-color: white;
+	background-color: #FFE184;
 }
 
 main {
 	width: 95%;
 	color: #0E0F2B;
 	margin: auto;
-	background-color: white;
+	background-color: #FFE184;
 	font-size: 1.4em;
 	font-family:'NowSemibold';
 }
@@ -66,7 +66,7 @@ header h1 {
 	background-color: #3e3734;
 	display: flex;
 	justify-content: flex-end;
-	border-radius: 15px;
+	border-radius: 10px;
 	margin: 0 10px;
 	width: fit-content;
 	position: absolute;
@@ -83,7 +83,7 @@ header h1 {
 	align-items: center;
 	background-color: #0E0F2B;
 	height: 65px;
-	border-radius: 20px;
+	border-radius: 10px;
 	margin: 10px 10px 5px 10px;
 }
 
@@ -250,7 +250,7 @@ footer {
 	background-color: #0E0F2B;
 	font-size: 1.3em;
 	height: 30px;
-	border-radius: 20px;
+	border-radius: 10px;
 	margin: 10px;
 	color: white;
 }
