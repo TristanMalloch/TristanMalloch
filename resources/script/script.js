@@ -10,7 +10,7 @@ const skillsImage = document.getElementById('skillsImage');
 const menuItems = document.getElementsByClassName('menuItem');
 const main = document.getElementById('main');
 
-let showMobileNav = function() {
+const showMobileNav = function() {
 	if (mobileNav.style.display == "block") {
 		mobileNav.style.display = "none";
 	} else {

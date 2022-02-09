@@ -2,16 +2,16 @@ body {
 	max-width: 1100px;
 	min-width: 375px;
 	margin: auto;
-	font-family: 'NowSemibold';
-	background-color: #fde4c5;
+	background-color: white;
 }
 
 main {
 	width: 95%;
+	color: #0E0F2B;
 	margin: auto;
-	font-family: 'NowSemibold';
-	background-color: #fde4c5;
+	background-color: white;
 	font-size: 1.4em;
+	font-family:'NowSemibold';
 }
 
 h2 {
@@ -20,7 +20,7 @@ h2 {
 }
 
 h2, p, li {
-	color: #3e3734;
+	color: #0E0F2B;
 }
 
 header a {
@@ -35,7 +35,7 @@ header a {
 header h1 {
 	padding-left: 0.3em;
 	float: left;
-	color: #fde4c5;
+	color: #3e3734;
 	font-family: NowBold;
 	
 }
@@ -54,12 +54,12 @@ header h1 {
 #bigNav a {
 	font-family: 'NowSemibold';
 	font-size: 1.3em;
-	color: #fde4c5;
+	color: white;
 	text-decoration: none;
 }
 
 #bigNav a:hover {
-	color: #c67d4e;
+	color: #207178;
 }
 
 #mobileNav {
@@ -81,7 +81,7 @@ header h1 {
 	font-size: 1.2em;
 	justify-content: space-between;
 	align-items: center;
-	background-color: #3e3734;
+	background-color: #0E0F2B;
 	height: 65px;
 	border-radius: 20px;
 	margin: 10px 10px 5px 10px;
@@ -92,11 +92,11 @@ header h1 {
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
-	margin-left: 25px
+	margin-left: 15px
 }
 
 #pcLogo {
-	height: 40px;
+	height: 75px;
 	display: inline-block;
 	float: left;
 }
@@ -109,12 +109,12 @@ header h1 {
 }
 
 .menuIcon {
-	fill: #fde4c5;
+	fill: white;
 }
 
 @media (hover: hover) {
 	#menuIconContainer:hover .menuIcon{
-		fill: #c67d4e;
+		fill: #207178;
 	}
 }
 
@@ -142,7 +142,7 @@ header h1 {
 }
 
 #mobileNav a:hover {
-	color: #c67d4e;
+	color: #207178;
 }
 
 #about img {
@@ -197,7 +197,7 @@ header h1 {
 
 @media (hover: hover) {
 #projects li:hover {
-	color: #c67d4e;
+	color: #207178;
 	}
 }
 
@@ -224,6 +224,8 @@ header h1 {
 }
 
 #codeIconContainer {
+	display: flex;
+	flex-wrap: wrap;
 	width: 95%;
 	margin: auto;
 }
@@ -232,20 +234,25 @@ header h1 {
 	height: 50px;
 	transition: transform .2s;
 	padding: 0.5em;
+	margin: auto;
 }
 
 .codeIcon:hover {
 	transform: scale(1.8);
 }
 
+form {
+	color: #0E0F2B;
+}
+
 footer {
 	text-align: center;
-	background-color: #3e3734;
+	background-color: #0E0F2B;
 	font-size: 1.3em;
 	height: 30px;
 	border-radius: 20px;
 	margin: 10px;
-	color: #fde4c5;
+	color: white;
 }
 
 #contact {
