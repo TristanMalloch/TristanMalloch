@@ -127,6 +127,8 @@ header h1 {
 
 #smallNav {
 	display: none;
+	background-color: #0E0F2B;
+	border-radius: 10px;
 }
 
 #smallNav ul {
@@ -136,7 +138,7 @@ header h1 {
 }
 
 #mobileNav a {
-	color: #fde4c5;
+	color: white;
 	font-size: 1.2em;
 	text-decoration: none;
 }
